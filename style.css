@@ -1,9 +1,58 @@
-header{background:limegreen;padding:20px 0;text-align:center;}
-main{background:#B0C4DE;}
-footer{background:#FF0000;text-align: center;display:inline-block;width:100%}
-.produtos {width: 940px;margin: 0 auto;padding: 50px 0;}
-.produtos li {display: inline-block;text-align: center;width: 30%;vertical-align: top;margin: 0 1.5%;padding: 30px 20px;box-sizing: border-box;border: 2px solid #000000;border-radius: 10px;}
-.produtos h2 {font-size: 30px;font-weight: bold;}
-.produto-descricao {font-size: 18px;}
-#lixeira{width:30%;}
-#tampinha{width: 30%;}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Rubik&display=swap');
+
+h1{
+  font-family: 'Oswald', sans-serif;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+}
+p{
+  font-family: 'Oswald', sans-serif;
+}
+header{
+  background:#91d3ff;
+  padding:20px 0;
+  text-align:center;
+}
+main{
+  background:#b5e1ff;
+}
+footer{
+  background:#91d3ff;
+  text-align: center;
+  display:inline-block;
+  width:100%;
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.produto-descricao {
+  font-size: 18px;
+}
+#lixeira{
+  width:30%;
+}
+#tampinha{
+  width: 30%;
+}
+.sociais{
+  display: flex;
+  flex-direction: column;
+}
